@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Chat with Express and SocketIO</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Chat with Express and SocketIO</h1>
+  <p>Users online: <b id="online"></b></p>
+ <ul id="chat"></ul>
+ <p id="typing"></p>
+ <form id="chat-form">
+  <input type="text" id="chat-message" autocomplete="off" required placeholder="type here...">
+  <button>Send</button>
+ </form>
+ <script src="./socket.io/socket.io.js"></script>
+ <script src="./script.js"></script>
+</body>
+</html>
